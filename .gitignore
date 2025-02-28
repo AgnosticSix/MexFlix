@@ -25,3 +25,14 @@ yarn-error.log*
 dist/
 
 package-lock.json
+
+
+# Backend ignore files
+Backend/ms-*/target/
+Backend/ms-*/.mvn/
+Backend/ms-*/mvnw
+Backend/ms-*/mvnw.cmd
+Backend/ms-*/.gitignore
+Backend/ms-*/.gitattributes
+Backend/ms-*/HELP.md
+Backend/ms-*/.vscode/
