@@ -29,23 +29,3 @@ public class Movie {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 }
-
-
-
-/* 
-@Getter
-@Setter
-public class Movie {
-    private Long id;
-    private String title;
-    private String genre;
-    private int year;
-
-    public Movie(Long id, String title, String genre, int year) {
-        this.id = id;
-        this.title = title;
-        this.genre = genre;
-        this.year = year;
-    }
-}
-*/
