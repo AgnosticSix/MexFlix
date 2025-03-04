@@ -1,0 +1,13 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /search
+
+spring:
+  application:
+    name: ms-search
+
+  elasticsearch:
+    uris: http://localhost:9200
+
+
