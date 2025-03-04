@@ -11,3 +11,14 @@
     grid-template-columns: 100%;
   }
 }
+
+.card {
+  padding:40px;
+  justify-content:center;
+}
+
+.pages {
+  padding: 20px;
+  color:azure;
+  background-color:lightgrey;
+}

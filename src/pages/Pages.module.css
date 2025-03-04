@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #005ce6, 0 0 40px #005ce6,
                  0 0 30px #005ce6, 0 0 40px #005ce6, 0 0 50px #005ce6;
     padding: 50px;
@@ -12,9 +12,11 @@
     padding-top: 10px;
 }
 
-.container{
-    position: relative;    
+.menu {
+    background-color: rgb(129, 129, 133);
+    color: lightgray;
 }
+
 
 .info{
     width: 50px;
@@ -30,6 +32,7 @@
     width: 100%;
     position: fixed;
     z-index: 100;
+    color: blue;
 }
 
 nav ul {
