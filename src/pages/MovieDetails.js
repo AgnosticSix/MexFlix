@@ -28,7 +28,7 @@ export function MovieDetails() {
       />
       <div className={`${styles.col} ${styles.movieDetails}`}>
         <p>
-          <strong>Título: </strong> {movie.original_title}
+          <strong>Título: </strong> {movie.title}
         </p>        
         <p>
           <strong>Título original: </strong> {movie.original_title}
